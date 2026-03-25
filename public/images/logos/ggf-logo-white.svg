@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" width="200" height="180">
+  <rect x="8" y="8" width="150" height="120" rx="2" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="8"/>
+  <rect x="28" y="0" width="150" height="120" rx="2" fill="none" stroke="white" stroke-width="8"/>
+  <rect x="32" y="4" width="142" height="112" rx="0" fill="rgba(255,255,255,0.15)"/>
+  <text x="103" y="82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="52" fill="white">GGF</text>
+  <text x="100" y="148" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="10.5" fill="white" letter-spacing="1.5">GLASS AND GLAZING</text>
+  <text x="100" y="163" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="10.5" fill="white" letter-spacing="1.5">FEDERATION</text>
+</svg>

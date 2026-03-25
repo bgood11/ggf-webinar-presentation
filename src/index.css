@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  --color-stax-teal: #477085;
+  --color-stax-pink: #d884b6;
+  --color-stax-blue: #2ab7e3;
+  --color-stax-gray: #9d9c9c;
+  --color-stax-dark: #1a3a4a;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background: rgba(42, 183, 227, 0.3);
+    color: #1a3a4a;
+  }
+}
+
+@layer components {
+  .slide {
+    @apply w-full h-full flex flex-col items-center px-16 pt-20 pb-14 relative overflow-hidden;
+  }
+
+  .slide-centered {
+    @apply w-full h-full flex flex-col items-center justify-center px-16 pt-20 pb-14 relative overflow-hidden;
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #477085, #2ab7e3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(135deg, #1a3a4a 0%, #477085 50%, #2ab7e3 100%);
+  }
+
+  .gradient-bg-warm {
+    background: linear-gradient(135deg, #1a3a4a 0%, #477085 40%, #d884b6 70%, #2ab7e3 100%);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+  }
+
+  .card-premium {
+    background: white;
+    border: 1px solid rgba(71, 112, 133, 0.12);
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 6px 24px rgba(71, 112, 133, 0.06);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .card-premium:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06), 0 12px 36px rgba(71, 112, 133, 0.1);
+    transform: translateY(-1px);
+  }
+
+  .card-elevated {
+    background: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 20px rgba(71, 112, 133, 0.1), 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+
+  .text-shadow-soft {
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .bg-subtle-grid {
+    background-image:
+      linear-gradient(rgba(71, 112, 133, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(71, 112, 133, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .accent-line {
+    width: 48px;
+    height: 3px;
+    background: linear-gradient(90deg, #477085, #2ab7e3);
+    border-radius: 2px;
+  }
+}

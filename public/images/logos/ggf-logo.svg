@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 180" width="200" height="180">
+  <!-- Outer rectangle (light blue, offset) -->
+  <rect x="8" y="8" width="150" height="120" rx="2" fill="none" stroke="#7BC4E8" stroke-width="8"/>
+  <!-- Inner rectangle (medium blue) -->
+  <rect x="28" y="0" width="150" height="120" rx="2" fill="none" stroke="#0083C9" stroke-width="8"/>
+  <!-- White fill for text area -->
+  <rect x="32" y="4" width="142" height="112" rx="0" fill="white"/>
+  <!-- GGF text -->
+  <text x="103" y="82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="52" fill="#0083C9">GGF</text>
+  <!-- Bottom text -->
+  <text x="100" y="148" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="10.5" fill="#0083C9" letter-spacing="1.5">GLASS AND GLAZING</text>
+  <text x="100" y="163" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="10.5" fill="#0083C9" letter-spacing="1.5">FEDERATION</text>
+</svg>
