@@ -36,20 +36,20 @@ A React-based slide deck that replaces traditional PowerPoint with smooth animat
 ## Getting Started
 
 ```bash
-# Install dependencies
+git clone https://github.com/bgood11/ggf-webinar-presentation.git
+cd ggf-webinar-presentation
 npm install
-
-# Start dev server
 npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
 ```
 
 Dev server runs at `http://localhost:5173/`.
+
+### Production Build
+
+```bash
+npm run build
+npm run preview
+```
 
 ## Navigation
 
