@@ -11,6 +11,9 @@ import SlideFinanceOptions from './components/slides/SlideFinanceOptions'
 import SlideFCARegulation from './components/slides/SlideFCARegulation'
 import SlideGGFBenefits from './components/slides/SlideGGFBenefits'
 import SlidePartnership from './components/slides/SlidePartnership'
+import SlideCommercialIntro from './components/slides/SlideCommercialIntro'
+import SlideCommercialProducts from './components/slides/SlideCommercialProducts'
+import SlideCommercialBroker from './components/slides/SlideCommercialBroker'
 import SlideNextSteps from './components/slides/SlideNextSteps'
 
 const slides = [
@@ -24,6 +27,9 @@ const slides = [
   { component: SlideFCARegulation, label: 'FCA Regulation' },
   { component: SlideGGFBenefits, label: 'GGF Benefits' },
   { component: SlidePartnership, label: 'Partnership' },
+  { component: SlideCommercialIntro, label: 'Commercial Finance' },
+  { component: SlideCommercialProducts, label: 'Finance Solutions' },
+  { component: SlideCommercialBroker, label: 'Why Stax Commercial?' },
   { component: SlideNextSteps, label: 'Next Steps & Q&A' },
 ]
 

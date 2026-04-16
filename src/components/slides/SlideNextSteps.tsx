@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { QRCodeSVG } from 'qrcode.react';
-import { Globe, Phone, Mail } from 'lucide-react';
+import { Globe, Building2, Phone, Mail } from 'lucide-react';
 
 const cardContainer = {
   hidden: { opacity: 0 },
@@ -16,9 +16,10 @@ const cardItem = {
 };
 
 const contactCards = [
-  { icon: Globe, heading: 'Visit Us', label: 'ggf.staxpay.co.uk' },
+  { icon: Globe, heading: 'Consumer Finance', label: 'ggf.staxpay.co.uk' },
+  { icon: Building2, heading: 'Commercial Finance', label: 'ggfcommercial.staxpay.co.uk' },
   { icon: Phone, heading: 'Call Us', label: '03302 30 30 30' },
-  { icon: Mail, heading: 'Email Us', label: 'enquiries@sherminfinance.co.uk' },
+  { icon: Mail, heading: 'Email Us', label: 'sales@sherminfinance.co.uk' },
 ];
 
 export default function SlideNextSteps() {
@@ -59,7 +60,7 @@ export default function SlideNextSteps() {
 
         {/* Contact cards */}
         <motion.div
-          className="grid grid-cols-3 gap-5 w-full"
+          className="grid grid-cols-2 gap-5 w-full"
           variants={cardContainer}
           initial="hidden"
           animate="visible"
